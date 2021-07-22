@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mega Sklep</title>
+</head>
+<body>
+<section class="products">
+    <h1>Lista produktów</h1>
+    <ul class="products-list">
+        <li>
+            <strong>Ogórki kiszone</strong> - 9.99
+            <button class="btn-buy-product" data-name="Ogórki kiszone" data-price="9.99">Kup!</button>
+        </li>
+        <li>
+            <strong>Pomidorki</strong> - 7.50
+            <button class="btn-buy-product" data-name="Pomidorki" data-price="7.5">Kup!</button>
+        </li>
+        <li>
+            <strong>Mercedes C Klasa</strong> - 109000.00
+            <button class="btn-buy-product" data-name="Mercedes C Klasa" data-price="109000">Kup!</button>
+        </li>
+    </ul>
+</section>
+<section class="basket">
+    <h1>Koszyk</h1>
+    <ul class="basket-list"></ul>
+    <div><span>Wartość koszyka: </span><span class="cart-total-value">0 zł</span></div>
+    <button class="btn-buy-all" disabled="true">Złóż zamówienie</button>
+</section>
+
+<script src="./src/storage.js"></script>
+<script src="./src/cart.js"></script>
+<script src="./src/product.js"></script>
+<script src="./src/UI.js"></script>
+</body>
+</html>
